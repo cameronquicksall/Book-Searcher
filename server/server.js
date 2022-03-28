@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const routes = require('./routes');
 // import apollo server
 const { ApolloServer } = require('apollo-server-express');
 //import our typedefs and resolvers
@@ -35,7 +34,6 @@ startServer()
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.use(routes);
 
 // Server up static assets
 if (process.env.NODE_ENV === 'production') {
