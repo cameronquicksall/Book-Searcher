@@ -15,6 +15,10 @@ This application is a Google Books API search engine with a GraphQL API built wi
 * [Contributors](#contributors)
 * [License](#license)
 
+![searcha](https://user-images.githubusercontent.com/91788324/160318733-75fb01a8-e1c3-4764-a5f4-feaac1f0a7ad.png)
+![search](https://user-images.githubusercontent.com/91788324/160318756-454fa195-fd8b-4ef3-8a05-7ff6e4c5bd3e.png)
+
+
 ## Installation
 Clone the repository and run `npm i`
 
